@@ -1,0 +1,16 @@
+4. Write a program to encrypt a grade by adding 8 to it. Also
+decrpyt it to show the corrent grade.	
+
+class encrypt{
+    public static void main(String[] args) {
+     
+        int grade = 23;
+        
+        int enc = grade + 8;
+        System.out.println("encryped grades = "+enc);
+
+        int dec = enc - 8;
+        System.out.println("encryped grades = "+dec);
+
+    }
+}

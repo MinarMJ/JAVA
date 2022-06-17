@@ -1,0 +1,13 @@
+1. Write a Java Program to check given number is even or odd
+
+class even_odd{
+    public static void main(String[] args) {
+        int a = 3 ;
+        if (a % 2 == 0){
+            System.out.println("the number is even");
+        }
+        else{
+            System.out.println("the number is odd");
+        }
+    }
+}
